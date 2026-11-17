@@ -3,8 +3,10 @@
     "Precios de AIF STORE (tienda al público, una sola versión).",
     "Todos los modelos $70.000 por unidad. Llevando 5 o más pares, cada modelo va a su precio por mayor.",
     "Precio por mayor de cada modelo = el que tiene el proveedor + $6.500 (34.000 → 40.500, 37.000 → 43.500, 40.000 → 46.500). Se cargó modelo por modelo en 'overrides' (cada código es el del proveedor, 15/11/2026); un modelo nuevo que no esté ahí usa el de 'wholesalePrice.default' ($43.500).",
-    "Gana la PRIMERA regla que coincide, de arriba hacia abajo."
+    "Gana la PRIMERA regla que coincide, de arriba hacia abajo.",
+    "ownPricesFirst: lo que el cliente cambia en su panel (precio y precio por mayor de cada modelo) manda sobre 'overrides'; los modelos que no tocó siguen con lo de 'overrides'."
   ],
+  "ownPricesFirst": true,
   "wholesale": {
     "minPairs": 5,
     "label": "Llevando 5 o más pares"
